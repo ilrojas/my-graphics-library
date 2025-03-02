@@ -82,8 +82,8 @@ const randomData = Array.from({ length: 7 }, (_, index) => ({
 const randomData1 = Array.from({ length: 7 }, () => Math.floor(Math.random() * 100));
 const randomData2 = Array.from({ length: 7 }, () => Math.floor(Math.random() * 100));
 
- createBarChart(document.querySelector(".charts")!, randomData);
- createPieChart(document.querySelector(".charts")!, randomData);
+ /* createBarChart(document.querySelector(".charts")!, randomData);
+ createPieChart(document.querySelector(".charts")!, randomData); */
 
  createBarChart(document.querySelector(".charts")!, randomData1);
  createPieChart(document.querySelector(".charts")!, randomData1);
